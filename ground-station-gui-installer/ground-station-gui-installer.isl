@@ -2582,6 +2582,7 @@
 		<col def="I2">Order</col>
 		<col def="I2">ISSetupLocation</col>
 		<col def="S255">ISReleaseFlags</col>
+		<row><td>_28832C00_6740_4AFA_AEB3_E76BE96C9E97_</td><td>Microsoft .NET Framework 4.5.2 Web.prq</td><td/><td/><td/></row>
 	</table>
 
 	<table name="ISSetupType">
@@ -2615,7 +2616,7 @@
 		<col def="I2">Encoded</col>
 		<col def="S0">Comment</col>
 		<col def="I4">TimeStamp</col>
-		<row><td>COMPANY_NAME</td><td>1033</td><td>ESFT</td><td>0</td><td/><td>-1306181326</td></row>
+		<row><td>COMPANY_NAME</td><td>1033</td><td>ESFT</td><td>0</td><td/><td>-1306193166</td></row>
 		<row><td>DN_AlwaysInstall</td><td>1033</td><td>Always Install</td><td>0</td><td/><td>-1306167150</td></row>
 		<row><td>IDPROP_EXPRESS_LAUNCH_CONDITION_COLOR</td><td>1033</td><td>The color settings of your system are not adequate for running [ProductName].</td><td>0</td><td/><td>-1306167150</td></row>
 		<row><td>IDPROP_EXPRESS_LAUNCH_CONDITION_OS</td><td>1033</td><td>The operating system is not adequate for running [ProductName].</td><td>0</td><td/><td>-1306167150</td></row>
@@ -3715,8 +3716,8 @@
 		<row><td>IDS__TargetReq_DESC_PROCESSOR</td><td>1033</td><td>The processor is not adequate for running [ProductName].</td><td>0</td><td/><td>-1306167150</td></row>
 		<row><td>IDS__TargetReq_DESC_RAM</td><td>1033</td><td>The amount of RAM is not adequate for running [ProductName].</td><td>0</td><td/><td>-1306167150</td></row>
 		<row><td>IDS__TargetReq_DESC_RESOLUTION</td><td>1033</td><td>The screen resolution is not adequate for running [ProductName].</td><td>0</td><td/><td>-1306167150</td></row>
-		<row><td>ID_STRING1</td><td>1033</td><td>http://www.eaglespaceflightteam.com/</td><td>0</td><td/><td>-1306162894</td></row>
-		<row><td>ID_STRING2</td><td>1033</td><td>ESFT</td><td>0</td><td/><td>-1306181326</td></row>
+		<row><td>ID_STRING1</td><td>1033</td><td>http://www.ESFT.com</td><td>0</td><td/><td>-1306193166</td></row>
+		<row><td>ID_STRING2</td><td>1033</td><td>ESFT</td><td>0</td><td/><td>-1306193166</td></row>
 		<row><td>ID_STRING3</td><td>1033</td><td/><td>0</td><td/><td>-1306167118</td></row>
 		<row><td>IIDS_UITEXT_FeatureUninstalled</td><td>1033</td><td>This feature will remain uninstalled.</td><td>0</td><td/><td>-1306167150</td></row>
 	</table>
@@ -3831,7 +3832,7 @@
 		<col def="V0">Data</col>
 		<col def="S255">ISBuildSourcePath</col>
 		<col def="I2">ISIconIndex</col>
-		<row><td>ARPPRODUCTICON.exe</td><td/><td>&lt;ISProductFolder&gt;\redist\Language Independent\OS Independent\setupicon.ico</td><td>0</td></row>
+		<row><td>ARPPRODUCTICON.exe</td><td/><td>&lt;VSSolutionFolder&gt;\ground-station-gui\icon.ico</td><td>0</td></row>
 		<row><td>UNINST_Uninstall_E_380922CA6E7647EFA49CDBA2FD382134.exe</td><td/><td>C:\Program Files (x86)\InstallShield\2015LE\Redist\Language Independent\OS Independent\uninstall.ico</td><td>0</td></row>
 		<row><td>UNINST_Uninstall_E_4F8E14BF4A04467BBC2FCA6394D22F1E.exe</td><td/><td>C:\Program Files (x86)\InstallShield\2015LE\Redist\Language Independent\OS Independent\uninstall.ico</td><td>0</td></row>
 	</table>
@@ -3952,7 +3953,7 @@
 UwBpAG4AZwBsAGUASQBtAGEAZwBlAAEARQB4AHAAcgBlAHMAcwA=
 			</td></row>
 		<row><td>DefaultProductConfiguration</td><td>Express</td></row>
-		<row><td>EnableSwidtag</td><td>1</td></row>
+		<row><td>EnableSwidtag</td><td>0</td></row>
 		<row><td>ISCompilerOption_CompileBeforeBuild</td><td>1</td></row>
 		<row><td>ISCompilerOption_Debug</td><td>0</td></row>
 		<row><td>ISCompilerOption_IncludePath</td><td/></row>
@@ -3966,7 +3967,7 @@ UwBpAG4AZwBsAGUASQBtAGEAZwBlAAEARQB4AHAAcgBlAHMAcwA=
 		<row><td>ISTheme</td><td>InstallShield Blue.theme</td></row>
 		<row><td>ISUSLock</td><td>{3ABE0915-6854-41BF-87C9-67518E11DFAC}</td></row>
 		<row><td>ISUSSignature</td><td>{694171C4-7D49-4120-9424-432DA75D3F69}</td></row>
-		<row><td>ISVisitedViews</td><td>viewAssistant</td></row>
+		<row><td>ISVisitedViews</td><td>viewAssistant,viewISToday,viewObjects,viewAppFiles,viewLearnMore,viewProject</td></row>
 		<row><td>Limited</td><td>1</td></row>
 		<row><td>LockPermissionMode</td><td>1</td></row>
 		<row><td>MsiExecCmdLineOptions</td><td/></row>
@@ -4340,7 +4341,7 @@ UwBpAG4AZwBsAGUASQBtAGEAZwBlAAEARQB4AHAAcgBlAHMAcwA=
 		<row><td>PROGMSG_IIS_ROLLBACKWEBSERVICEEXTENSIONS</td><td>##IDS_PROGMSG_IIS_ROLLBACKWEBSERVICEEXTENSIONS##</td><td/></row>
 		<row><td>ProductCode</td><td>{41B91CFC-520C-42CB-9893-88CB02ED228A}</td><td/></row>
 		<row><td>ProductName</td><td>ESFT Ground Station</td><td/></row>
-		<row><td>ProductVersion</td><td>1.00.0000</td><td/></row>
+		<row><td>ProductVersion</td><td>1.0</td><td/></row>
 		<row><td>ProgressType0</td><td>install</td><td/></row>
 		<row><td>ProgressType1</td><td>Installing</td><td/></row>
 		<row><td>ProgressType2</td><td>installed</td><td/></row>

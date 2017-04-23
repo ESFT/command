@@ -6,9 +6,6 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ground Station GUI", "ground-station-gui\Ground Station GUI.csproj", "{A4B8AD87-0882-4A5B-84EA-F6F95DB67235}"
 EndProject
 Project("{6141683F-8A12-4E36-9623-2EB02B2C2303}") = "ground-station-gui-installer", "ground-station-gui-installer\ground-station-gui-installer.isproj", "{4065C1A3-E915-4499-AC56-1FF2986B128C}"
-	ProjectSection(ProjectDependencies) = postProject
-		{A4B8AD87-0882-4A5B-84EA-F6F95DB67235} = {A4B8AD87-0882-4A5B-84EA-F6F95DB67235}
-	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
